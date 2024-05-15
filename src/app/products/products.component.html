@@ -1,0 +1,32 @@
+<div class="aer">
+<div class="filterer">
+    <label class="oswald-a qw">Min Price</label>
+    <input [(ngModel)]="minPrice" type="text" class="former">
+  
+    <label class="oswald-a qw">Max Price</label>
+    <input [(ngModel)]="maxPrice"  type="text" class="former">
+  
+    <button (click)="filter()" class="sub oswald-ae">Search</button>
+  </div>
+  
+  <div class="randee">
+    <h1 class="oswald-a" [(ngModel)]="kak"></h1>
+  </div>
+  
+  <div class="big">
+  
+      <div *ngFor="let product of filteredList" class="card" style="width: 18rem;">
+        <div class="ki">
+          <img [src]="product.image" class="imager" alt="...">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title oswald-ae"> Title: {{product.title}}</h5>
+            <h5 class="card-title oswald-ae"> Product ID: {{product.id}}</h5>
+            <h5 class="card-title oswald-ae"> Product Price: {{product.price}}$</h5>
+            <h5 class="card-title oswald-ae"> Product Catrgory: {{product.category}}</h5>
+  
+          </div>
+        </div>
+  
+  </div>
+</div>

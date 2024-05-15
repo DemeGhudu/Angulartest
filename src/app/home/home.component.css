@@ -1,0 +1,97 @@
+.topper {
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.oswalda-a {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 300%;
+    transition: all 0.3s;
+}
+.oswalda-as {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 140%;
+    transition: all 0.3s;
+}
+.asd {
+    width: 20%;
+    border: 2px solid black;
+    margin-right: 0.5%;
+}
+.womaner {
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
+.liner {
+    border: 1px solid grey;
+    width: 70%;
+}
+.linerer {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.ae {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.noner {
+    display: block;
+    width: 18%;
+}
+.a {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2%;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.oswalda-ase {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    transition: all 0.3s;
+}
+.h1s {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.imagerer {
+    display: flex;
+}
+.qweqwe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

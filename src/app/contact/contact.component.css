@@ -1,0 +1,124 @@
+.ae {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.oswalda-a {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 300%;
+    transition: all 0.3s;
+}
+.oswalda-as {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    transition: all 0.3s;
+}
+.sender {
+    width: 50%;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3%;
+}
+.firs {
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+}
+.send {
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+    border-left: 2px solid rgb(212, 170, 0);
+    border-radius: 10px;
+}
+.formeer {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    transition: all 0.4s;
+}
+.former {
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    border: 2px solid black;
+    transition: all 0.4s;
+}
+.sub {
+    width: 40%;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    margin-bottom: 2%;
+}
+.sub:hover {
+    border-radius: 5px;
+    border:2px solid rgb(212, 170, 0);
+}
+.former:hover {
+    border-radius: 5px;
+    border:2px solid rgb(212, 170, 0);
+}
+.formeer:hover {
+    border-radius: 5px;
+    border:2px solid rgb(212, 170, 0);
+}
+.formeer:focus {
+    outline: 2px solid rgb(212, 170, 0);
+    outline-offset: -2px;
+}
+.former:focus {
+    outline: 2px solid rgb(212, 170, 0);
+    outline-offset: -2px;
+}
+.liner {
+    border: 1px solid grey;
+    width: 30%;
+}
+.linerr {
+    border: 1px solid grey;
+    width: 50%;
+    margin-top: 1%;
+}
+.fa-brands {
+    font-size: 600%;
+}
+.fa-regular {
+    font-size: 600%;
+}
+.ao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.apps {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.linerre {
+    border: 1px solid grey;
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
